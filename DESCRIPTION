@@ -1,0 +1,23 @@
+Package: epilPBMC
+Type: Package
+Title: Shiny app for PBMC data from epileptic and healthy patients
+Version: 0.1.0
+Author: Jason Mares [aut,cre]
+Maintainer: JAson Mares <jm4454@cumc.columbia.edu>
+Description: 
+    runShiny() to run Shiny app
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    DT,
+    ggprism,
+    ggpubr,
+    ggrepel,
+    patchwork,
+    RColorBrewer,
+    Seurat,
+    shiny,
+    stringr,
+    shinythemes
